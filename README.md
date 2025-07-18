@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# 📘 Kursus Online Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deskripsi singkat tentang aplikasi. Misalnya:
 
-## Available Scripts
+> Aplikasi ini merupakan sistem untuk membantu pembelajaran secara fleksibel dimana dapat membantu siswa yang membutuhkan bimbingan belajar dan para pengajar juga dapat menambahkan materi didalam web ini secara fleksibel.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Fitur Utama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔐 Login & SignUp
+- 📋 Dashboard Home
+- 📋 Dashboard Tutor
+- ✅ Input dan Edit Materi
+- 📋 Dashboard Siswa
+- ✅ Membaca Materi dari Tutor
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📸 Tampilan Setiap Halaman
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏠 Dashboard Home
 
-### `npm run build`
+![home](./src/assets/01.home.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![courses](./src/assets/02.courses.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![tutor-1](./src/assets/03.tutor-1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![tutor-2](./src/assets/04.about.png)
 
-### `npm run eject`
+![footer](./src/assets/05.footer.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🗂️ Pilih Akun
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![pilih-akun](./src/assets/06.pilih-akun.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨‍💻 Dashboard Tutor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Halaman Login
 
-## Learn More
+![login-tutor](./src/assets/08.login-tutor.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Halaman SignUp
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![signup-tutor](./src/assets/09.sigin-tutor.png)
 
-### Code Splitting
+### 3. Home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![home-tutor](./src/assets/10.dashboard-tutor.png)
 
-### Analyzing the Bundle Size
+### 4. Create Courses
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![create-courses](./src/assets/11.create-materi.png)
 
-### Making a Progressive Web App
+## 🎓 Dashboard Siswa
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 1. Halaman Login
 
-### Advanced Configuration
+![login-siswa](./src/assets/12.login-siswa.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 2. Halaman SignUp
 
-### Deployment
+![signup-siswa](./src/assets/13.sigin-siswa.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3. Home
 
-### `npm run build` fails to minify
+![home-siswa](./src/assets/14.dasboard-siswa.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4. Materi Course
+
+![materi course](./src/assets/15.materi-course.png)
+
+---
+
+## 💻 Cara Instalasi
+
+```bash
+git clone https://github.com/username/nama-proyek.git
+cd nama-proyek
+npm install
+npm run start
+```
